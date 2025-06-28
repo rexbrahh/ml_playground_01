@@ -1,0 +1,350 @@
+{
+  "evaluation_timestamp": "2025-06-28T16:42:15.385789",
+  "test_prompts_count": 8,
+  "generation_config": {
+    "max_new_tokens": 100,
+    "temperature": 0.7
+  },
+  "device": "Apple Silicon MPS",
+  "base_model": {
+    "model_name": "base_microsoft/DialoGPT-small",
+    "average_score": 0.13374999999999998,
+    "total_prompts": 8,
+    "results": [
+      {
+        "prompt": "Explain quantum computing in simple terms:",
+        "response": "Quantum computing in simple terms :",
+        "category": "explanation",
+        "expected_keywords": [
+          "quantum",
+          "bits",
+          "superposition",
+          "computing"
+        ],
+        "evaluation": {
+          "keyword_score": 0.5,
+          "length_score": 0.3,
+          "overall_score": 0.43999999999999995,
+          "word_count": 6,
+          "keywords_found": 2,
+          "total_keywords": 4,
+          "analysis": "Found 2/4 keywords, 6 words"
+        }
+      },
+      {
+        "prompt": "Write a Python function to calculate factorial:",
+        "response": "Write a program to measure it",
+        "category": "code",
+        "expected_keywords": [
+          "def",
+          "factorial",
+          "return",
+          "function"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 6,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 6 words"
+        }
+      },
+      {
+        "prompt": "List the benefits of renewable energy:",
+        "response": "Well then we have a solution",
+        "category": "information",
+        "expected_keywords": [
+          "renewable",
+          "energy",
+          "environment",
+          "sustainable"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 6,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 6 words"
+        }
+      },
+      {
+        "prompt": "Describe the process of photosynthesis:",
+        "response": "I don't know how to do this. It's a miracle!",
+        "category": "science",
+        "expected_keywords": [
+          "photosynthesis",
+          "plants",
+          "sunlight",
+          "oxygen"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 10,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 10 words"
+        }
+      },
+      {
+        "prompt": "What are the key principles of good software design?",
+        "response": "We have that in mind, yes.",
+        "category": "technical",
+        "expected_keywords": [
+          "design",
+          "software",
+          "principles",
+          "maintainable"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 6,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 6 words"
+        }
+      },
+      {
+        "prompt": "How to prepare for a job interview:",
+        "response": "Response : Instructions",
+        "category": "advice",
+        "expected_keywords": [
+          "interview",
+          "preparation",
+          "questions",
+          "research"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 3,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 3 words"
+        }
+      },
+      {
+        "prompt": "Summarize the importance of data privacy:",
+        "response": "Lines made for the next thread",
+        "category": "ethics",
+        "expected_keywords": [
+          "privacy",
+          "data",
+          "security",
+          "protection"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 6,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 6 words"
+        }
+      },
+      {
+        "prompt": "Explain the difference between machine learning and deep learning:",
+        "response": "I'm not making sense, why would I want to do that?",
+        "category": "ai",
+        "expected_keywords": [
+          "machine learning",
+          "deep learning",
+          "neural",
+          "algorithms"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 11,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 11 words"
+        }
+      }
+    ],
+    "timestamp": "2025-06-28T16:42:50.677013"
+  },
+  "fine_tuned_model": {
+    "model_name": "fine_tuned_./fine_tuned_model_apple",
+    "average_score": 0.5362499999999999,
+    "total_prompts": 8,
+    "results": [
+      {
+        "prompt": "Explain quantum computing in simple terms:",
+        "response": "Quantum computing is a computer with a quantum engine that is able to simulate a world in a simulated world. In a simulated world it is not possible to learn how to do anything from what we see on the screen. It is a simple process with a quantum computer, which involves a mathematical and mathematical computation. It has a lot of computational power and a lot of data storage.\n\nWhat is quantum computing and how does it work?\nQuantum computing is a simulation of quantum computing where you",
+        "category": "explanation",
+        "expected_keywords": [
+          "quantum",
+          "bits",
+          "superposition",
+          "computing"
+        ],
+        "evaluation": {
+          "keyword_score": 0.5,
+          "length_score": 1.0,
+          "overall_score": 0.6499999999999999,
+          "word_count": 89,
+          "keywords_found": 2,
+          "total_keywords": 4,
+          "analysis": "Found 2/4 keywords, 89 words"
+        }
+      },
+      {
+        "prompt": "Write a Python function to calculate factorial:",
+        "response": "The variable in the variable is a number, the variable in the variable is a",
+        "category": "code",
+        "expected_keywords": [
+          "def",
+          "factorial",
+          "return",
+          "function"
+        ],
+        "evaluation": {
+          "keyword_score": 0.0,
+          "length_score": 0.3,
+          "overall_score": 0.09,
+          "word_count": 15,
+          "keywords_found": 0,
+          "total_keywords": 4,
+          "analysis": "Found 0/4 keywords, 15 words"
+        }
+      },
+      {
+        "prompt": "List the benefits of renewable energy:",
+        "response": "Frequency of wind energy increases and the number of wind energy produced by wind turbines is increasing. The energy that produces wind turbine power is growing. The wind turbines are also contributing to the overall wind energy loss. The wind turbines are actually more efficient than the energy they use to power the turbines.\n\nFrequency of wind energy is increasing as the wind turbines are more and more powerful. This increases the energy they use to generate the wind turbine power. This increases the energy efficiency of the wind turbine",
+        "category": "information",
+        "expected_keywords": [
+          "renewable",
+          "energy",
+          "environment",
+          "sustainable"
+        ],
+        "evaluation": {
+          "keyword_score": 0.25,
+          "length_score": 1.0,
+          "overall_score": 0.475,
+          "word_count": 90,
+          "keywords_found": 1,
+          "total_keywords": 4,
+          "analysis": "Found 1/4 keywords, 90 words"
+        }
+      },
+      {
+        "prompt": "Describe the process of photosynthesis:",
+        "response": "Photoynthesis is a process that involves a lot of energy and water. It is a process that produces photosynthesis in order to produce photosynthesis, which is a component of the human body. It is also a process that causes photosynthesis and makes it easier to absorb light. Photosynthesis is a process that produces photosynthesis that is a component of the human body. It is also a process that produces light. It is a process that is a component of the human body. It is a process that",
+        "category": "science",
+        "expected_keywords": [
+          "photosynthesis",
+          "plants",
+          "sunlight",
+          "oxygen"
+        ],
+        "evaluation": {
+          "keyword_score": 0.25,
+          "length_score": 1.0,
+          "overall_score": 0.475,
+          "word_count": 87,
+          "keywords_found": 1,
+          "total_keywords": 4,
+          "analysis": "Found 1/4 keywords, 87 words"
+        }
+      },
+      {
+        "prompt": "What are the key principles of good software design?",
+        "response": "Suit design is a basic principle of good software design. It is a fundamental part of good design. There are many different key principles of good software design, but the fundamental principle is that there is a fundamental need to use the code to make the engine work for the application.\n\nSuit design is a fundamental principle of good software design. It is a fundamental part of good software design. It is a fundamental part of good software design. It is a fundamental part of good software design.",
+        "category": "technical",
+        "expected_keywords": [
+          "design",
+          "software",
+          "principles",
+          "maintainable"
+        ],
+        "evaluation": {
+          "keyword_score": 0.75,
+          "length_score": 1.0,
+          "overall_score": 0.825,
+          "word_count": 88,
+          "keywords_found": 3,
+          "total_keywords": 4,
+          "analysis": "Found 3/4 keywords, 88 words"
+        }
+      },
+      {
+        "prompt": "How to prepare for a job interview:",
+        "response": "The first step is to get your resume in writing. You should be able to write it and email it to the appropriate person to fill out your resume. The work you need to do will be a big step. You will need to work with the same people in other areas of your field and interview them in a different area in your field of expertise.\n\nIt also helps to memorize and write your resume.\n\nYou should also be able to write your own resume and prepare for your",
+        "category": "advice",
+        "expected_keywords": [
+          "interview",
+          "preparation",
+          "questions",
+          "research"
+        ],
+        "evaluation": {
+          "keyword_score": 0.25,
+          "length_score": 1.0,
+          "overall_score": 0.475,
+          "word_count": 90,
+          "keywords_found": 1,
+          "total_keywords": 4,
+          "analysis": "Found 1/4 keywords, 90 words"
+        }
+      },
+      {
+        "prompt": "Summarize the importance of data privacy:",
+        "response": "Data privacy is a big part of the human experience.  It is a big part of the human experience.  It is a big part of the human experience, especially since computers are now ubiquitous in the 21st century.   You are also a part of the human experience.  It has the capacity to be a great tool for a few different things, like data collection and data analysis.  The data itself is also a big part of the human experience.  The data can be used",
+        "category": "ethics",
+        "expected_keywords": [
+          "privacy",
+          "data",
+          "security",
+          "protection"
+        ],
+        "evaluation": {
+          "keyword_score": 0.5,
+          "length_score": 1.0,
+          "overall_score": 0.6499999999999999,
+          "word_count": 84,
+          "keywords_found": 2,
+          "total_keywords": 4,
+          "analysis": "Found 2/4 keywords, 84 words"
+        }
+      },
+      {
+        "prompt": "Explain the difference between machine learning and deep learning:",
+        "response": "Machine learning can be used to study the difference between deep learning and deep learning. Deep learning is more about learning and learning the underlying pattern of the object. In the case of deep learning, it is the process of learning which the neurons are stored in which the neurons are stored. As the neurons are stored in a neuron, they are stored in the neuron. As deep learning is stored in which neurons are stored in which neuron. The neuron is stored in a neuron. The neuron is stored in the",
+        "category": "ai",
+        "expected_keywords": [
+          "machine learning",
+          "deep learning",
+          "neural",
+          "algorithms"
+        ],
+        "evaluation": {
+          "keyword_score": 0.5,
+          "length_score": 1.0,
+          "overall_score": 0.6499999999999999,
+          "word_count": 92,
+          "keywords_found": 2,
+          "total_keywords": 4,
+          "analysis": "Found 2/4 keywords, 92 words"
+        }
+      }
+    ],
+    "timestamp": "2025-06-28T16:43:06.676347"
+  },
+  "improvement": {
+    "absolute": 0.4024999999999999,
+    "percentage": 300.9345794392523,
+    "analysis": "Improved"
+  }
+}
